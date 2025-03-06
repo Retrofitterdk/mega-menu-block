@@ -31,14 +31,14 @@
                 margin-top: 0.075em;
                 width: inherit;
                 transition: all .1s linear;
-                transform: rotate(-90deg);
+                
             }
         }
 
         &[aria-expanded=true] {
             .wp-block-outermost-mega-menu__toggle-icon {    
                 svg {
-                    transform: rotate(0deg);
+                    transform: rotate(180deg);
                 }
             }
 
